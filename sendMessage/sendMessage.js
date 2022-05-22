@@ -6,7 +6,7 @@
  * @typedef {ethers.Signer} from
  */
 const ethers = require('ethers')
-const {privateKey, RPC_URLS} = require('./secrets.json')
+const { privateKey, RPC_URLS } = require('./secrets.json')
 
 // Ethers config
 const provider = new ethers.providers.JsonRpcProvider(RPC_URLS.rinkeby)
